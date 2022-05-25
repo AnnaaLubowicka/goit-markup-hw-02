@@ -1,6 +1,9 @@
+    
     body {
-        font-family: 'Roboto','Raleway',sans-serif;
+        font-family: 'Roboto', 'Raleway', sans-serif;
+        color:#212121
     }
+
     a {
         text-decoration: none;
         color:#000000;
@@ -14,7 +17,7 @@
         font-family: 'Raleway';
         font-weight: 700;
         font-size: 26px;
-        line-height: 31px;
+        line-height: 1.17;
     
         /* identical to box height */
         letter-spacing: 0.03em;
@@ -26,7 +29,7 @@
         text-decoration-color: #2196F3 ;
     }
 
-    .logo-akcent {
+    .logo-accent {
         color: #2196F3;
         text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 
@@ -35,7 +38,7 @@
     .link {
         font-weight: 500;
         font-size: 14px;
-        line-height: 16px;
+        line-height: 1,17;
         letter-spacing: 0.02em;
     }    
 
@@ -57,7 +60,7 @@
 .title {
     font-weight: 900;
     font-size: 44px;
-    line-height: 60px;
+    line-height: 1,36;
     color: #FFFFFF;
 }
    
@@ -66,17 +69,19 @@
     height: 600px;
     background-color: #2F303A;
 }
+
 button {
     font-family: inherit;
+    cursor: pointer;
+    
 }
 
 .title-button {
     width: 200px;
     height: 50px;    
-    font-style: bold;
     font-weight: 700;
-    line-height: 30px;
-    letter-spacing: 0.06em;
+    line-height: 1,87;
+    /* letter-spacing: 0.06em; */
     color: #FFFFFF;
     background: #2196F3;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -89,8 +94,7 @@ button {
     border-radius: 4px;
     font-weight: 500;
     line-height: 26px;
-    letter-spacing: 0.03em;
-    color: #212121;
+    /* letter-spacing: 0.03em; */
     border:none;
 }
 
@@ -104,23 +108,23 @@ button {
 /*nasze atuty*/
 .atuty {
     font-size: 14px;
-    letter-spacing: 0.06em;
+    line-height: 1,71;
+    /* letter-spacing: 0.06em; */
 }
-
+/*nagłówek tekstu*/
 h6 {
     font-size: 14px;
-    color: #212121;
-    line-height: 100%;
+    line-height: 1,17;
 }
 
-p {
-    line-height: 146%;
+.text {
+    line-height: 1,17;
     color:#757575;
 }
-
+/*nagłówek Czym się zajmujemy*/
 h2 {
     font-size: 24px;
-    line-height: 100%;
+    line-height: 1,17;
     letter-spacing: 0.06em;
 }
 
@@ -128,15 +132,17 @@ h2 {
 .team {
     /*width: 1600px;
     height: 648px;*/
+    line-height: 1,17;
     background-color: #f5f4fa;
 }
 .team-card {
     width: 270px;
     height: 368px;
+    line-height: 1,17;
     background: #FFFFFF;
     /* material shadow v1 */
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-    border-radius: 0px 0px 4px 4px;
+    /* box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px; */
 }
 h4 {
     font-size: 16px ;
@@ -145,7 +151,7 @@ h3 {
     font-size: 18px;
 }
 
-.akcent-card {
+.accent-card {
 letter-spacing: 0.03em;
 color: #757575;
 }
@@ -153,25 +159,31 @@ color: #757575;
 .portfolio-card {
 width: 370px;
 height: 404px;
+line-height: 171%;
 background: #FFFFFF;
-border: 1px solid #EEEEEE;
+/* border: 1px solid #EEEEEE; */
 }
     /* Footer bg */
-footer {
+.footer {
     width: 1600px;
     height: 252px;
-    background: #2F303A;
     font-weight: 400;
     font-size: 14px;
+    line-height: 2;
     color: #FFFFFF;
+    background: #2F303A;
     letter-spacing: 0.03em;
 }
+
 address {
     font-style: normal;
+    
 }
 a.address {
     color: #757575;
 }
-.logo-akcent-footer {
+
+.logo-accent-footer {
         color:#FFFFFF;
 }
+
