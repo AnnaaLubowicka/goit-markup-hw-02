@@ -141,12 +141,21 @@ h2 {
 h4 {
     font-size: 16px ;
 }
+h3 {
+    font-size: 18px;
+}
 
 .akcent-card {
 letter-spacing: 0.03em;
 color: #757575;
 }
 
+.portfolio-card {
+width: 370px;
+height: 404px;
+background: #FFFFFF;
+border: 1px solid #EEEEEE;
+}
     /* Footer bg */
 footer {
     width: 1600px;
