@@ -38,7 +38,7 @@
     .link {
         font-weight: 500;
         font-size: 14px;
-        line-height: 1,17;
+        line-height: 1.17;
         letter-spacing: 0.02em;
     }    
 
@@ -60,7 +60,7 @@
 .title {
     font-weight: 900;
     font-size: 44px;
-    line-height: 1,36;
+    line-height: 1.36;
     color: #FFFFFF;
 }
    
@@ -80,7 +80,7 @@ button {
     width: 200px;
     height: 50px;    
     font-weight: 700;
-    line-height: 1,87;
+    line-height: 1.87;
     /* letter-spacing: 0.06em; */
     color: #FFFFFF;
     background: #2196F3;
@@ -93,7 +93,7 @@ button {
     background: #F5F4FA;
     border-radius: 4px;
     font-weight: 500;
-    line-height: 26px;
+    line-height: 1.875;
     /* letter-spacing: 0.03em; */
     border:none;
 }
@@ -108,23 +108,23 @@ button {
 /*nasze atuty*/
 .atuty {
     font-size: 14px;
-    line-height: 1,71;
+    line-height: 1.71;
     /* letter-spacing: 0.06em; */
 }
 /*nagłówek tekstu*/
 h6 {
     font-size: 14px;
-    line-height: 1,17;
+    line-height: 1.17;
 }
 
 .text {
-    line-height: 1,17;
+    line-height: 1.17;
     color:#757575;
 }
 /*nagłówek Czym się zajmujemy*/
 h2 {
     font-size: 24px;
-    line-height: 1,17;
+    line-height: 1.17;
     letter-spacing: 0.06em;
 }
 
@@ -132,13 +132,13 @@ h2 {
 .team {
     /*width: 1600px;
     height: 648px;*/
-    line-height: 1,17;
+    line-height: 1.17;
     background-color: #f5f4fa;
 }
 .team-card {
     width: 270px;
     height: 368px;
-    line-height: 1,17;
+    line-height: 1.17;
     background: #FFFFFF;
     /* material shadow v1 */
     /* box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -152,14 +152,15 @@ h3 {
 }
 
 .accent-card {
-letter-spacing: 0.03em;
-color: #757575;
+    line-height: 1.875;
+    letter-spacing: 0.03em;
+    color: #757575;
 }
 
 .portfolio-card {
 width: 370px;
 height: 404px;
-line-height: 171%;
+line-height: 2;
 background: #FFFFFF;
 /* border: 1px solid #EEEEEE; */
 }
@@ -169,7 +170,7 @@ background: #FFFFFF;
     height: 252px;
     font-weight: 400;
     font-size: 14px;
-    line-height: 2;
+    line-height: 1.71;
     color: #FFFFFF;
     background: #2F303A;
     letter-spacing: 0.03em;
