@@ -1,9 +1,15 @@
     
     body {
         font-family: 'Roboto', 'Raleway', sans-serif;
-        color:#212121
+        color:var(--main-color);
     }
 
+    :root {
+        --main-color: #212121;
+        --logo-color: #2196F3;
+        --link-color: #757575;
+        --bg-color: #2F303A;
+    }
     .container {
         width: 1200px;
         padding: 0 15px;
@@ -54,8 +60,9 @@
   
     .line {
         align-content: center;
-        height: 1px;
+        height: 0px;
         border: 1px solid #ECECEC;
+    
     }
 
         /* WebStudio */
@@ -72,11 +79,11 @@
     }
 
     .logo:hover {
-        text-decoration-color: #2196F3 ;
+        text-decoration-color: var(--logo-color) ;
     }
 
     .logo-accent {
-        color: #2196F3;
+        color: var(--logo-color);
        
     }
         /*ustawienia wspólne dla link*/
@@ -90,18 +97,18 @@
     .link:hover, 
     .link:focus,
     .link:active {
-        color:#2196F3;
+        color: var(--logo-color);
     }
     
     .link-contact {
         font-size: 14px;
-        color:#757575;
+        color: var(--link-color);
         padding: 32px 0;
     }
 
     .link-contact:hover,
     .link-contact:focus {
-        color:#2196F3;
+        color: var(--logo-color);
     }
 ul.list {
     justify-content: space-between;
@@ -133,7 +140,7 @@ li.list-nav-item {
 .title-section {
     display: flex;
     height: 600px;
-    background-color: #2F303A;
+    background-color: var(--bg-color);
     padding: 94px 0;
 
 }
@@ -153,7 +160,7 @@ button {
     line-height: 1.87;
     letter-spacing: 0.06em;
     color: #FFFFFF;
-    background: #2196F3;
+    background: var(--logo-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     border: none;
@@ -191,7 +198,7 @@ ul .porfolio-list-item:not(:last-child) {
 
 .button-portfolio:hover,
 .button-portfolio:focus {
-    background-color: #2196F3;
+    background-color: var(--logo-color);
     color: #FFFFFF;
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
     border-radius: 4px;
@@ -201,7 +208,9 @@ ul .porfolio-list-item:not(:last-child) {
 div .portfolio-list-card {
     display: flex;
     flex-wrap: wrap; 
+    padding-bottom: 94px;
 }
+
 ul .portfolio-card-item:nth-child(-n + 5) {
     margin-bottom: 30px;
 }
@@ -224,7 +233,7 @@ ul .portfolio-list-card {
     height: 404px;*/
     line-height: 2;
     background: #FFFFFF;
-    border: 1px solid #EEEEEE;
+    border-bottom: 1px solid #EEEEEE;
     
 }
 
@@ -260,7 +269,7 @@ h6 {
     height: 75px;*/
     font-size: 14px;  
     line-height: 24px;
-    color:#757575;
+    color: var(--link-color);
     text-align: left;
     vertical-align: top;
     
@@ -322,7 +331,7 @@ h3 {
 .accent-card {
     line-height: 1.875;
     letter-spacing: 0.03em;
-    color: #757575;
+    color: var(--link-color);
     
 }
 
@@ -334,7 +343,7 @@ h3 {
     font-size: 14px;
     line-height: 1.71;
     color: #FFFFFF;
-    background: #2F303A;
+    background: var(--bg-color);
     letter-spacing: 0.03em;
 }
 
@@ -349,7 +358,7 @@ footer .container .logo {
 }
  
 a.address {
-    color: #757575;
+    color: var(--link-color);
 }
 .footer-adress {
     margin-bottom: 60px;
