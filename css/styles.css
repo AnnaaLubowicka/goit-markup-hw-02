@@ -52,6 +52,12 @@
         padding-bottom: 32px;
     }
   
+    .line {
+        align-content: center;
+        height: 1px;
+        border: 1px solid #ECECEC;
+    }
+
         /* WebStudio */
     .logo {
         font-family: 'Raleway';
@@ -160,18 +166,27 @@ main .title-section {
     justify-content: center;
 }
 
-h2 {
-    text-align: center;
+
+/* portfolio buttons*/
+
+div .portfolio-list-button {
+    justify-content: center;
+    padding-top: 94px;
+    padding-bottom: 50px;
 }
 
+ul .porfolio-list-item:not(:last-child) {
+    padding-right: 8px;
+}
 .button-portfolio {
-    height: 38px;
+    padding: 6px 22px;
     background: #F5F4FA;
     border-radius: 4px;
     font-weight: 500;
     line-height: 1.875;
-    /* letter-spacing: 0.03em; */
+    letter-spacing: 0.03em;
     border:none;
+   
 }
 
 .button-portfolio:hover,
@@ -181,58 +196,124 @@ h2 {
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
     border-radius: 4px;
 }
+
+/*portfolio cards*/
+div .portfolio-list-card {
+    display: flex;
+    flex-wrap: wrap; 
+}
+ul .portfolio-card-item:nth-child(-n + 5) {
+    margin-bottom: 30px;
+}
+li .portfoli-card-item {
+    margin-left: 10px;
+    margin-top: 10px;
+    flex-basis: calc(100%/3-10px);
+}
+
+ul .portfolio-list-card {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -10px;
+    margin-top: -10px;
+}
+
+.portfolio-card {
+    margin: 0;
+    /*width: 370px;
+    height: 404px;*/
+    line-height: 2;
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+    
+}
+
+.figcaption-portfolio .accent-card {
+    text-align: left;
+    padding-top: 4px;
+}
+
+.figcaption-portfolio {
+    padding: 20px 24px;
+}
 /*nasze atuty*/
+
 .atuty {
     font-size: 14px;
     line-height: 1.71;
-    letter-spacing: 0.06em;
+    letter-spacing: 0.03em;
     padding: 94px 0;
+    justify-content: space-between;
+    
 }
 /*nagłówek tekstu*/
 h6 {
     font-size: 14px;
     line-height: 1.17;
-    padding-bottom: 10px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
 }
 
+
 .text {
-    width: 270px; 
-    height: 75px;
+    /*width: 270px; 
+    height: 75px;*/
     font-size: 14px;  
     line-height: 24px;
     color:#757575;
     text-align: left;
     vertical-align: top;
-    letter-spacing: 3%;
+    
+}
+ul .list-item-atuty {
+    justify-content:space-between;
+    /*padding-right: 30px;*/
+}
+ul .list-item-atuty:not(:last-child) {
+    margin-right: 30px;
 }
 
-p.list {
-    letter-spacing: 0.06em;
+h2 {
+    font-size: 36px;
+    
+
 }
     /*nagłówek Czym się zajmujemy*/
 h2 {
-    font-size: 24px;
+    font-size: 36px;
     line-height: 1.17;
     letter-spacing: 0.06em;
+    text-align: center;
+    padding-bottom: 50px;
 }
 
     /*nasz zespół*/
-.team {
-    /*width: 1600px;
-    height: 648px;*/
-    padding: 0;
+
+.team .container {
+    padding-top: 94px;
+    padding-bottom: 94px;
     line-height: 1.17;
     background-color: #f5f4fa;
+    justify-content: space-between;
 }
 .team-card {
+    margin: 0;
+    padding: 0;
     line-height: 1.17;
     background: #FFFFFF;
     /* material shadow v1 */
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px; 
 }
+figcaption .accent-card {
+    padding-bottom: 30px;
+    text-align: center;
+}
+
 h4 {
-    font-size: 16px ;
+    font-size: 16px;
+    text-align: center;
+    padding: 30px 99px 0;
 }
 h3 {
     font-size: 18px;
@@ -242,17 +323,12 @@ h3 {
     line-height: 1.875;
     letter-spacing: 0.03em;
     color: #757575;
+    
 }
 
-.portfolio-card {
-    width: 370px;
-    height: 404px;
-    line-height: 2;
-    background: #FFFFFF;
-    /* border: 1px solid #EEEEEE; */
-}
+
     /* Footer bg */
-.footer {
+.footer .container {
     height: 252px;
     font-weight: 400;
     font-size: 14px;
@@ -262,12 +338,21 @@ h3 {
     letter-spacing: 0.03em;
 }
 
+footer .container .logo {
+    display: flex;
+    padding-top: 60px;
+    padding-bottom: 20px;
+
+}
 .address {
     font-style: normal;
-    
 }
+ 
 a.address {
     color: #757575;
+}
+.footer-adress {
+    margin-bottom: 60px;
 }
 
 .logo-accent-footer {
